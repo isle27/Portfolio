@@ -1,0 +1,67 @@
+.navbar {
+  background: rgba(10, 10, 10, 0.8) !important;
+  backdrop-filter: blur(6px) !important;
+  border-bottom: 1px solid #1F2937 !important;
+  box-shadow: none !important;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+}
+
+.toolbar {
+  width: 1280px;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 24px;
+}
+
+.navLinks {
+  display: flex;
+  gap: 32px;
+}
+
+.navbtn {
+  color: #D1D5DB;
+  font-size: 16px;
+  text-transform: none;
+  font-weight: 400;
+  transition: all 0.2s ease;
+}
+
+.navbtn:hover {
+  background-color: #355e3b;
+  border-radius: 4px;
+}
+
+.IconButton {
+  display: none !important; /* Hidden by default */
+}
+
+/* Mobile & Tablet: ≤800px → Show only hamburger */
+@media (max-width: 800px) {
+  .navLinks {
+    display: none !important;
+  }
+  .IconButton {
+    display: flex !important;
+    margin-right: 30px !important;
+  }
+  .toolbar {
+    justify-content: flex-end;
+    margin-right: 30px !important;
+  }
+}
+
+/* Desktop: >800px → Show full links, hide hamburger */
+@media (min-width: 801px) {
+  .IconButton {
+    display: none !important;
+  }
+  .navLinks {
+    display: flex !important;
+    margin-right: 30px !important;
+  }
+}
