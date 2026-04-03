@@ -183,7 +183,7 @@ export default function Home() {
                         <a href="https://github.com/danielwubie/Alora-frontend" target="_blank" rel="noopener noreferrer">
                         <GitHubIcon sx={{ color: '#22C55E', fontSize: 24, cursor: 'pointer' }} />
                         </a>
-                        <a href="https://alora-frontend.vercel.app/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://alora.lockitech.com/" target="_blank" rel="noopener noreferrer">
                         <OpenInNewIcon sx={{ color: '#9333EA', fontSize: 24, cursor: 'pointer' }} />
                         </a>
                     </Box>
@@ -204,7 +204,7 @@ export default function Home() {
                      <a href="https://github.com/isle27/cafe-website" target="_blank" rel="noopener noreferrer">
                     <GitHubIcon sx={{ color: '#22C55E', fontSize: 24, cursor: 'pointer' }} />
                     </a>
-                    <a href="https://cafe-website-999.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://oakbrew.lockitech.com/" target="_blank" rel="noopener noreferrer">
                     <OpenInNewIcon sx={{ color: '#9333EA', fontSize: 24, cursor: 'pointer' }} />
                     </a>
                 </Box>
@@ -225,7 +225,7 @@ export default function Home() {
                    <a href="https://github.com/isle27/E.B-Events" target="_blank" rel="noopener noreferrer">
                     <GitHubIcon sx={{ color: '#22C55E', fontSize: 24, cursor: 'pointer' }} />
                     </a>
-                    <a href="https://e-b-events.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://ebevents.lockitech.com/" target="_blank" rel="noopener noreferrer">
                     <OpenInNewIcon sx={{ color: '#9333EA', fontSize: 24, cursor: 'pointer' }} />
                     </a>
                 </Box>
