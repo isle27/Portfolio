@@ -4,7 +4,7 @@
 .hr {
   border: none;
   height: 2px;
-  background: linear-gradient(90deg, transparent, #505050, transparent);
+  background: #505050;
   margin: 0 !important;
   width: 100%;
   color: #505050;
