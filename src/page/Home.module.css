@@ -426,7 +426,10 @@
   width: 100%;
   margin: 0 !important;
 }
-
+ .contactSubtitle {
+ 
+    color: #FFFFFF;
+  }
 .infoItem {
   display: flex;
   max-width: 320px;  
@@ -449,9 +452,13 @@
   }
   .infoLabel {
     display: block;
+     color: #FFFFFF;
   }
   .infoValue {
     display: block;
+    color: #FFFFFF;
+  }
+  .infoText{
     color: #FFFFFF;
   }
 
