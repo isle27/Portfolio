@@ -4,9 +4,9 @@
 .hr {
   border: none;
   height: 2px;
-  background: linear-gradient(90deg, transparent, #9CA3AF, transparent);
   margin: 0 !important;
   width: 100%;
+  color: #a4a7ad;
 }
 
 /* HERO - Modified as requested */
